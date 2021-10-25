@@ -96,7 +96,7 @@ with DAG('fraud_data_etl_dag',
 
    # send_email = EmailOperator(
    #     task_id='send_email',
-   #     to=['fauziashaikh@ymail.com'],
+   #     to=['test@test.com'],
    #     subject='Fraud data for today has been ingested',
    #     html_content='Please check your dashboard. :)'
    # )
