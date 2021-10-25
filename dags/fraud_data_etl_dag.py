@@ -7,13 +7,6 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.contrib.sensors.file_sensor import FileSensor
 from airflow.providers.postgres.operators.postgres import PostgresOperator
-
-
-#AIRFLOW_HOME = os.getenv('AIRFLOW_HOME')
-
-
-
-
 import psycopg2
 
 def load_transaction_data( ** kwargs):
