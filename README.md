@@ -87,7 +87,7 @@ B) You see the below error when trying to trigger the DAG:
 The DAGs list may not update, and new tasks will not be scheduled."
 
 Solution:
-Repeat the steps if it still fails to initialize. This could be because some housekeeping steps we're missed due to abrupt ending of the services. Generally thrid time's a charm!
+Repeat the steps if it still fails to initialize. This could be because some housekeeping steps we're missed due to abrupt ending of the services. Generally third time's a charm!
 
  `docker-compose down  --volumes --remove-orphans`
  
