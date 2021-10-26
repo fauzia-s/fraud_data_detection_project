@@ -11,7 +11,7 @@ import psycopg2
 
 def load_transaction_data( ** kwargs):
     try:
-       conn = psycopg2.connect("dbname=airflow user=airflow password=airflow host=postgres port=5433",options='-c search_path=public')
+       conn = psycopg2.connect("dbname=airflow user=airflow password=airflow host=postgres port=5432",options='-c search_path=public')
     except:
        print('Can\'t connect to postgres DB.Failing the task')
 
@@ -25,7 +25,7 @@ def load_transaction_data( ** kwargs):
 
 def load_identity_data( ** kwargs):
     try:
-       conn = psycopg2.connect("dbname=airflow user=airflow password=airflow host=postgres port=5433",options='-c search_path=public')
+       conn = psycopg2.connect("dbname=airflow user=airflow password=airflow host=postgres port=5432",options='-c search_path=public')
     except:
        print('Can\'t connect to postgres DB.Failing the task')
 
@@ -65,13 +65,13 @@ with DAG('fraud_data_etl_dag',
 
     create_transactions_table = PostgresOperator(
         task_id = "create_transactions_table",
-        postgres_conn_id = "postgres_default",
+        postgres_conn_id = "postgres_fraud_etl",
         sql = "sql/create_transactions_table.sql",
         dag = dag)
      
     create_identity_table = PostgresOperator(
         task_id = "create_identity_table",
-        postgres_conn_id = "postgres_default",
+        postgres_conn_id = "postgres_fraud_etl",
         sql = "sql/create_identity_table.sql",
         dag = dag)
 
