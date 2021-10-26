@@ -40,7 +40,8 @@ https://drive.google.com/drive/folders/1mk6_tqVwkK89F6VvQ4XO4ZT5aPIU_rP4
 
 7)Once the services are initialized and you see the below on your terminal (wait for the second "Airflow" sign like this or wait 25-30 secs after running the command, so that all the services are intialized before we try to connect.)
 
-<img width="923" alt="Screen Shot 2021-10-25 at 5 24 52 PM" src="https://user-images.githubusercontent.com/25311137/138792695-1f3151ce-1733-4159-bed3-f2b63d0bb2cd.png">
+<img width="903" alt="Screen Shot 2021-10-25 at 9 13 28 PM" src="https://user-images.githubusercontent.com/25311137/138797176-49909560-cbc1-4d28-8b06-6d2a805591b4.png">
+
 
 
 
