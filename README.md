@@ -61,16 +61,27 @@ The Dag should be completed as below:
 
 11) You can connect to any client like MySQL Workbench or Aginity Pro to connect to your Postgresql DB to check the tables loaded.
 
+Identity table:
+<img width="1267" alt="Screen Shot 2021-10-24 at 4 47 19 PM" src="https://user-images.githubusercontent.com/25311137/138795139-74fc9dbc-38e7-4cf2-8014-67dd3a690139.png">
+
+Transaction table:
+<img width="1508" alt="Screen Shot 2021-10-24 at 12 34 53 PM" src="https://user-images.githubusercontent.com/25311137/138795143-9ff8246c-827e-4de5-bbc8-41978c0d7c13.png">
+
+Sample join:
+<img width="777" alt="Screen Shot 2021-10-24 at 4 46 58 PM" src="https://user-images.githubusercontent.com/25311137/138795141-ecafb7b1-40a7-4157-b411-c129d89fdf78.png">
+
+
 
 
 **Troubleshooting**:
 
-A)If there are any errors while connecting to the localhost airflow, go back to the terminal window and run the below command. 
+A)If there are any errors while connecting to the localhost airflow.
+
 B) You see the below error when trying to trigger the DAG:
 
-_The scheduler does not appear to be running.
+"The scheduler does not appear to be running.
 
-The DAGs list may not update, and new tasks will not be scheduled._
+The DAGs list may not update, and new tasks will not be scheduled."
 
 Solution:
 Repeat the steps if it still fails to initialize. This could be because some housekeeping steps we're missed due to abrupt ending of the services. Generally thrid time's a charm!
