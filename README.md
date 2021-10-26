@@ -53,6 +53,8 @@ This will open up the Airflow UI.
 
 <img width="805" alt="Screen Shot 2021-10-25 at 5 02 38 PM" src="https://user-images.githubusercontent.com/25311137/138792720-586f7903-a16d-40ce-8dc4-5df27bcf2034.png">
 
+P.S : If you don't see the login window or there's an error in the Airflow UI, go to the end to follow Troubleshooting instructions.
+
 10)Go to DAGs tab and click as below.
 <img width="1263" alt="Screen Shot 2021-10-25 at 5 06 10 PM" src="https://user-images.githubusercontent.com/25311137/138792729-cd9daf72-fcc4-4633-b60c-e377c4ad5e6a.png">
 
